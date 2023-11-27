@@ -13,22 +13,22 @@
   }
 
   ul a .custom-list-one::before{
-      content: url('/intro-section-with-dropdown-navigation-main/images/icon-todo.svg');
+      content: url('images/icon-todo.svg');
       margin-right: 0.5rem;
   }
 
   ul a .custom-list-two::before{
-    content: url('/intro-section-with-dropdown-navigation-main/images/icon-calendar.svg');
+    content: url('images/icon-calendar.svg');
     margin-right: 0.5rem;
 }
 
   ul a .custom-list-three::before{
-  content: url('/intro-section-with-dropdown-navigation-main/images/icon-reminders.svg');
+  content: url('images/icon-reminders.svg');
   margin-right: 0.5rem;
 }
 
 ul a .custom-list-four::before{
-  content: url('/intro-section-with-dropdown-navigation-main/images/icon-planning.svg');
+  content: url('images/icon-planning.svg');
   margin-right: 0.5rem;
 }
 
@@ -37,3 +37,6 @@ ul a .custom-list-four::before{
   font-weight: 700;
 }
 
+.attribution{
+  font-size: 0.875rem;
+}
