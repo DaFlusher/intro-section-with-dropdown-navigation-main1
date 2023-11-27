@@ -1,0 +1,39 @@
+/*importing google font epilogue*/
+
+  @import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap');
+
+  body{
+    font-family: 'Epilogue', sans-serif;
+    background-color: hsl(0, 0%, 98%);
+  }
+
+/*Adding the icons to the list style*/
+  .custom-list-style{
+      list-style: none;
+  }
+
+  ul a .custom-list-one::before{
+      content: url('/intro-section-with-dropdown-navigation-main/images/icon-todo.svg');
+      margin-right: 0.5rem;
+  }
+
+  ul a .custom-list-two::before{
+    content: url('/intro-section-with-dropdown-navigation-main/images/icon-calendar.svg');
+    margin-right: 0.5rem;
+}
+
+  ul a .custom-list-three::before{
+  content: url('/intro-section-with-dropdown-navigation-main/images/icon-reminders.svg');
+  margin-right: 0.5rem;
+}
+
+ul a .custom-list-four::before{
+  content: url('/intro-section-with-dropdown-navigation-main/images/icon-planning.svg');
+  margin-right: 0.5rem;
+}
+
+/*Styling the main content*/
+.headline{
+  font-weight: 700;
+}
+
